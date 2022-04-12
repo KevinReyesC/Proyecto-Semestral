@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark pnav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/ceee.png" alt="" style="border-radius: 50%; height: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav mt-1">
+                <li>
+                    <h1>PetShop</h1>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+              </ul>
+
+            
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Suscripcion_iniciado.html" style="color: white;">Suscribete</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginaAyuda_iniciado.html" style="color: white;">¿Necesitas ayuda?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- NAV bar -->
+    <nav class="navbar navbar-expand-sm just navbar-dark pnav" style="background-color: black;">
+        <div class="container-fluid justify-content-end">
+            </button>
+            <ul class="nav nav-pills mt-1">
+                <li class="nav-item mt-1">
+                  <a class="nav-link " href="Usuario_Iniciado.html"><i class="iconos fa fa-home"></i> Inicio</a>
+                </li>
+                
+                <li class="nav-item mt-1">
+                    <div class="dropdown">
+                        <button type="button" style="background-color: black; border: none;"   class="btn btn-primary dropdown-toggle nav-link" data-toggle="dropdown">
+                           <i class="iconos fa fa-house-user"></i>Cuenta
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="cuenta.html">Perfil</a>
+                          <a class="dropdown-item" href="historial.html">Historial de compra</a>
+                        
+                        </div>
+                      </div>
+                </li> 
+                
+                <li class="nav-item mt-1">
+                    <a class="nav-link" href="carrito.html"><i class="iconos fa fas fa-shopping-cart" style="color: white;"></i>Carrito</a>
+                </li>
+                <li class="nav-item mt-1">
+                        <a class="nav-link" href="Seguimiento.html" >
+                            <i class="iconos fa fa-truck"></i> Seguimiento</a>
+                 </li>
+                 <li class="nav-item mt-1">
+                     <a class="nav-link" href="index.html"><i class="fa fa-right-from-bracket"></i> Cerrar sesión</a>
+                 </li>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Barra izquierda  -->
+  
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 color-izq" >
+
+                <div class="row">
+                    <div class="col-sm-12" style="min-height: 80vh;">
+
+                        <ul class="nav nav-pills flex-column mt-1">
+                            <li class="nav-item mt-1">
+                              <a class="nav-link activo" href="Perrito_iniciado.html"><i style="margin-right: 10px;" class="fa fa-dog"></i>Perros</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                              <a class="nav-link" href="gato_iniciado.html" ><i style="margin-right: 10px;" class="fa fa-cat"></i> Gatos</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="pajaros_iniciado.html" ><i style="margin-right: 10px;" class="fa fa-kiwi-bird"></i>Pajaros</a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link" href="todos_iniciado.html" ><i style="margin-right: 10px;" class="fa fa-align-justify"></i>Todos</a>
+                              </li>
+                            <hr> 
+                          </ul>
+
+                    </div>
+                </div>               
+            </div>
+
+
+
+
+
+
+
+            
+
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10" style="margin-top: 30px;">
+                        
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                              <li data-target="#demo" data-slide-to="0" class="active"></li>
+                              <li data-target="#demo" data-slide-to="1"></li>
+                              <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                          
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/Perrito2.png" style="width: 800px;" height="300px" alt="Los Angeles">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/Perrito3.gif" style="width: 800px;" height="300px"  alt="Chicago">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/Perrito3.jpg" style="width: 800px;" height="300px" alt="New York">
+                              </div>
+                            </div>
+                          
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                          
+                          </div>
+                          <br>
+                          <br>
+  
+                          <div class="row row-cols-sm-1 row-cols-md-2 row-col-lg-3 row-cols-xl-4">
+                              <div class="col d-flex justify-content-center   mb-4">
+                                  <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                      <h5 class="card-titulo pt-2 text-center text-primary" style="margin-bottom: 55px;">COLLAR PETLOVER</h5>
+                                      <img src="img/Collar.png" class="card-img-top imgp" alt="">
+                                      <div class="card-body text-white-50">
+                                          <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                          <h5 class="precio" style="color: paleturquoise;">20% descuento</h5>
+                                            <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$4.890</span></h5>
+                                            <h5 class="precio">Precio antes : <span class="precio">$6.990</span></h5>
+                                          <p class="cantidad"> 25 Unidades</p>
+                                          <button class="btn btn-primary button">Añadir al carrito</button>
+                                      </div>
+                                  </div>
+                              </div>
+  
+                              <div class="col d-flex justify-content-center   mb-4">
+                                  <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                      <h5 class="card-titulo pt-2 text-center text-primary" style="margin-bottom: 55px;">Mochila PETLOVER</h5>
+                                      <img src="img/Mochila.png" class="card-img-top imgp" alt="">
+                                      <div class="card-body text-white-50">
+                                          <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                          <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$14.990</span></h5>
+                                          <p class="cantidad"> +30 Unidades</p>
+                                          <button class="btn btn-primary">Añadir al carrito</button>
+                                      </div>
+                                  </div>
+                              </div>
+  
+                              <div class="col d-flex justify-content-center   mb-4">
+                                  <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                      <h5 class="card-titulo pt-2 text-center text-primary" style="margin-bottom: 55px;">MUG MINI ACERO</h5>
+                                      <img src="img/Mug.png" class="card-img-top imgp" alt="">
+                                      <div class="card-body text-white-50">
+                                          <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                          <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$9.990</span></h5>
+                                          <p class="cantidad"> +30 Unidades</p>
+                                          <button class="btn btn-primary">Añadir al carrito</button>
+                                      </div>
+                                  </div>
+                              </div>
+  
+                              <div class="col d-flex justify-content-center mb-4">
+                                <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                    <h5 class="card-titulo pt-2 text-center text-primary">BANDANA PETLOVER MEZTIZO</h5>
+                                    <img src="img/BANDANA.png" class="card-img-top imgp" alt="">
+                                    <div class="card-body text-white-50">
+                                        <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                        <h5 class="precio" style="color: paleturquoise;">20% descuento</h5>
+                                        <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$4.890</span></h5>
+                                        <h5 class="precio">Precio antes : <span class="precio">$6.990</span></h5>
+                                        <button class="btn btn-primary">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col d-flex justify-content-center mb-4">
+                              <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                  <h5 class="card-titulo pt-2 text-center text-primary">Placa Metalica</h5>
+                                  <img src="img/CAMO.png" class="card-img-top imgp" alt="">
+                                  <div class="card-body text-white-50">
+                                      <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                      <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$1.990</span></h5>
+                                      <button class="btn btn-primary">Añadir al carrito</button>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col d-flex justify-content-center mb-4">
+                              <div class="card sadow mb-1 bg-dark rounded" style="width: 20rem;">
+                                  <h5 class="card-titulo pt-2 text-center text-primary">PLACA PETFY ID</h5>
+                                  <img src="img/Identificador1.png" class="card-img-top imgp" alt="">
+                                  <div class="card-body text-white-50">
+                                      <p class="card-text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo.</p>
+                                      <h5 class="precio" style="color: paleturquoise;">Precio: <span class="precio">$9.990</span></h5>
+                                      <button class="btn btn-primary">Añadir al carrito</button>
+                                  </div>
+                              </div>
+                          </div>
+
+
+
+
+
+
+                          </div>
+                              
+                      </div>
+                          
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5 bg-dark text-white ">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="img/Logo2.jpg" alt="" height="150" width="400" >
+            <img src="img/mascprot.png" alt="" height="100">
+        </div>
+    </div>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
